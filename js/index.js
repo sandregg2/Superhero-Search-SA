@@ -1,6 +1,5 @@
 //My api key = 276c6e39353bb75f934d98fb78190fb
 //My hash key = 60ada66665f400b918739bca32abbaf8
-//2nd api key = AIzaSyB1OT4HxQ7_QlsTrnx_T81XqfLYFRxYgAw
 const searchHero = document.getElementById("searchHero");
 const searchResults = document.getElementById("searchResults");
 
@@ -89,4 +88,13 @@ searchHero.addEventListener("keyup", function () {
     true
   );
   xhrRequest.send();
+});
+
+secondUrl =
+  "https://www.googleapis.com/customsearch/v1?key=AIzaSyB1OT4HxQ7_QlsTrnx_T81XqfLYFRxYgAw&cx=017576662512468239146:omuauf_lfve&q=lectures";
+//2nd api key = AIzaSyB1OT4HxQ7_QlsTrnx_T81XqfLYFRxYgAw
+console.log(secondUrl);
+fetch(secondUrl).then((res) => {
+  console.log(res);
+  return res.JSON();
 });
