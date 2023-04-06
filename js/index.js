@@ -89,12 +89,15 @@ searchHero.addEventListener("keyup", function () {
   );
   xhrRequest.send();
 });
-
-secondUrl =
-  "https://www.googleapis.com/customsearch/v1?key=AIzaSyB1OT4HxQ7_QlsTrnx_T81XqfLYFRxYgAw&cx=017576662512468239146:omuauf_lfve&q=lectures";
+var searchstr = "Superman";
+secondUrl = `https://www.googleapis.com/customsearch/v1?key=AIzaSyB1OT4HxQ7_QlsTrnx_T81XqfLYFRxYgAw&cx=017576662512468239146:omuauf_lfve&q=${searchstr}`;
 //2nd api key = AIzaSyB1OT4HxQ7_QlsTrnx_T81XqfLYFRxYgAw
 console.log(secondUrl);
-fetch(secondUrl).then((res) => {
-  console.log(res);
-  return res.JSON();
-});
+fetch(secondUrl)
+  .then((res) => {
+    console.log(res);
+    return res.json();
+  })
+  .then((json) => {
+    console.log(json);
+  });
