@@ -1,6 +1,10 @@
 body {
-    background-image: url(./images/9e6e9-16470302175387-1920.avif);
+    background-image: url(./9e6e9-16470302175387-1920.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: Bangers, cursive;
+    color: white;
 }
 #searchHero{
     display: block;
