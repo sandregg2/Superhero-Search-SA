@@ -1,4 +1,4 @@
-//My api key = 276c6e39353bb75f934d98fb78190fb
+//My api key = 3424640404462003
 //My hash key = 60ada66665f400b918739bca32abbaf8
 const searchHero = document.getElementById("searchHero");
 const searchResults = document.getElementById("searchResults");
