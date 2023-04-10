@@ -1,3 +1,4 @@
+## Superhero Search | Project #1
 Description
 
 Users will be able to search a database of superheros by name. Users will be able to select a superhero by their name and picture, and view their various stats.
