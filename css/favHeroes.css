@@ -17,6 +17,7 @@ body{
     display: flex;
     justify-content:space-evenly;
     flex-wrap: wrap;
+    
 }
 
 .favImage{
@@ -43,6 +44,7 @@ a{
     outline: none;
     border: none;
     margin-bottom: 20px;
+    
 }
 
 #fav-hero-container div button:hover{
